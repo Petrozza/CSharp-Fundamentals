@@ -46,16 +46,6 @@ namespace Snowwhite
                 //}
             }
 
-            //foreach (var kvp in dwarfs.OrderByDescending(x => x.Value.Values.Max()).ThenByDescending(y => y.Value.Count))
-            //{
-            //    var temp = kvp.Value;
-
-            //    foreach (var dwarf in temp)
-            //    {
-            //        Console.Write($"({kvp.Key}) ");
-            //        Console.WriteLine($"{dwarf.Key} <-> {dwarf.Value}");
-            //    }
-            //}
 
             var sortedDwarfs = new Dictionary<string, int>();
             foreach (var color in dwarfs.OrderByDescending(x => x.Value.Count()))
