@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nether Realms", "Nether Rea
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Winning Ticket", "Winning Ticket\Winning Ticket.csproj", "{3B4A733D-4487-4BB9-B72B-815CA3E2D8AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rage Quit", "Rage Quit\Rage Quit.csproj", "{23475518-3879-4B2F-8A43-C3AB400580CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rage Quit", "Rage Quit\Rage Quit.csproj", "{23475518-3879-4B2F-8A43-C3AB400580CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post Office", "Post Office\Post Office.csproj", "{362171F8-8FE5-48B5-B951-05ABFB8E35A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{23475518-3879-4B2F-8A43-C3AB400580CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23475518-3879-4B2F-8A43-C3AB400580CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23475518-3879-4B2F-8A43-C3AB400580CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{362171F8-8FE5-48B5-B951-05ABFB8E35A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{362171F8-8FE5-48B5-B951-05ABFB8E35A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{362171F8-8FE5-48B5-B951-05ABFB8E35A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{362171F8-8FE5-48B5-B951-05ABFB8E35A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
