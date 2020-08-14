@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading;
 
@@ -9,7 +10,7 @@ namespace Post_Office
     {
         static void Main(string[] args)
         {
-            string[] line = Console.ReadLine().Split("|");
+            string[] line = Console.ReadLine().Split("|").ToArray();
 
             string part1 = line[0]; //firs capital letter
             string part2 = line[1]; //length of word
@@ -21,14 +22,17 @@ namespace Post_Office
             List<char> capLett = new List<char>();
             for (int i = 0; i < capitalLetters.Length; i++)
             {
-                string pattern2 = @"\d\d:\d\d";
+                string pattern2 = @"[\d]{2}:(?<length>[\d]{2})";
                 MatchCollection matches2 = Regex.Matches(part2, pattern2);
                 foreach (Match item in matches2)
                 {
                     string[] pieces = item.Value.Split(':');            // ASCII, length
                     char ascii = (char)int.Parse(pieces[0].ToUpper());
-                    int length = int.Parse(pieces[1]) + 1;
-
+                    int length = int.Parse(item.Groups["length"].Value) + 1;
+                    if (!(length > 1 && length < 20))
+                    {
+                        continue;
+                    }
                     if (ascii == capitalLetters[i])
                     {
                         if (capLett.Contains(ascii))

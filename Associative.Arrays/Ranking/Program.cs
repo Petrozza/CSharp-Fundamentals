@@ -68,7 +68,7 @@ namespace Ranking
                 totalPoints[kvp.Key] = kvp.Value.Values.Sum();
             }
 
-            string bestName = totalPoints.Keys.Max();
+            //string bestName = totalPoints.Keys.Max();
             int bestPoints = totalPoints.Values.Max();
 
             foreach (var kvp in totalPoints)
@@ -78,6 +78,7 @@ namespace Ranking
                     Console.WriteLine($"Best candidate is {kvp.Key} with total {kvp.Value} points.");
                 }
             }
+
             Console.WriteLine("Ranking: ");
             
             foreach (var user in line2)
