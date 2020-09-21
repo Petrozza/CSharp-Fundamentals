@@ -141,7 +141,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Concert", "Concert\Concert.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Song Encryption", "Song Encryption\Song Encryption.csproj", "{A6E77396-B6AF-4B46-BC22-3E6EC8E5A915}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deciphering", "Deciphering\Deciphering.csproj", "{EED0B6CC-D7BA-4BD9-85D2-39A8E52228EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deciphering", "Deciphering\Deciphering.csproj", "{EED0B6CC-D7BA-4BD9-85D2-39A8E52228EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Imitation Game", "The Imitation Game\The Imitation Game.csproj", "{2913890B-95EA-4F23-938E-8FC59307F379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ad Astra", "Ad Astra\Ad Astra.csproj", "{5C47041E-3725-4C8F-8330-A87A46F89CFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Pianist", "The Pianist\The Pianist.csproj", "{3F7F3CF7-802F-4F74-A112-F8A8F9DE2518}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -429,6 +435,18 @@ Global
 		{EED0B6CC-D7BA-4BD9-85D2-39A8E52228EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EED0B6CC-D7BA-4BD9-85D2-39A8E52228EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EED0B6CC-D7BA-4BD9-85D2-39A8E52228EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2913890B-95EA-4F23-938E-8FC59307F379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2913890B-95EA-4F23-938E-8FC59307F379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2913890B-95EA-4F23-938E-8FC59307F379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2913890B-95EA-4F23-938E-8FC59307F379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C47041E-3725-4C8F-8330-A87A46F89CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C47041E-3725-4C8F-8330-A87A46F89CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C47041E-3725-4C8F-8330-A87A46F89CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C47041E-3725-4C8F-8330-A87A46F89CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F7F3CF7-802F-4F74-A112-F8A8F9DE2518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F7F3CF7-802F-4F74-A112-F8A8F9DE2518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F7F3CF7-802F-4F74-A112-F8A8F9DE2518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F7F3CF7-802F-4F74-A112-F8A8F9DE2518}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
